@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Лабораторна робота 4</title>
+   <script src="https://cdn.plot.ly/plotly-2.27.1.min.js"></script>
+</head>
+<body>
+   <div id="radarPlot" style="width:600px;height:600px;"></div>
+   
+   <div>
+       Частота сканування: <input type="number" id="scanFreq" value="360"><br>
+       Швидкість (RPM): <input type="number" id="speed" value="60"><br>
+       Швидкість об'єкта (км/год): <input type="number" id="targetSpeed" value="100"><br>
+       <button onclick="updateConfig()">Оновити</button>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
